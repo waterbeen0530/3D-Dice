@@ -2,11 +2,11 @@ import "./App.css";
 import styled from "styled-components";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/common/header";
-import Main from "./Pages/Main";
-import Wind from "./Pages/Wind";
-import Rock from "./Pages/Rock";
-import Light from "./Pages/Light";
-import Grass from "./Pages/Grass";
+import Main from "./Pages/MainPage";
+import Wind from "./Pages/WindPage";
+import Rock from "./Pages/RockPage";
+import Light from "./Pages/LightPage";
+import Grass from "./Pages/GrassPage";
 
 export default function App() {
   return (
