@@ -7,7 +7,7 @@ export default function App() {
     <>
       <Title />
       <Dice />
-      <Offer />
+      {/* <Offer /> */}
     </>
   );
 }
