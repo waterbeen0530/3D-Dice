@@ -4,7 +4,8 @@ export default function Title() {
   return (
     <Container>
       <Text>
-        <h1>풀의 원소와 공명하기</h1>
+        <h1>풀의 신의 눈동자 공양하기</h1>
+        <p>신의 눈동자를 클릭해보세요</p>
         <Row></Row>
       </Text>
     </Container>
