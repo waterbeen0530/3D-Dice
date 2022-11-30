@@ -25,10 +25,24 @@ const Container = styled.div`
 const Text = styled.div`
   position: relative;
   margin: 50px 0 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  @media (max-width: 380px) {
+    margin: 0;
+  }
+
   h1 {
     margin: 0;
     line-height: 70px;
     font-size: 50px;
+    @media (max-width: 380px) {
+      width: 70%;
+      font-size: 36px;
+      line-height: 50px;
+    }
   }
 `;
 

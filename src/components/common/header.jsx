@@ -33,6 +33,11 @@ const Container = styled.div`
   align-items: center;
   justify-content: center;
   color: #fff;
+
+  @media (max-width: 380px) {
+    height: 60px;
+    position: relative;
+  }
 `;
 const Wrapper = styled.div`
   width: 90vw;
@@ -41,14 +46,31 @@ const Wrapper = styled.div`
   justify-content: flex-start;
   gap: 20px;
 
+  @media (max-width: 380px) {
+    justify-content: center;
+  }
+
   & > a {
     font-size: 14px;
     font-weight: 600;
     color: #fff;
     text-decoration: none;
+    @media (max-width: 380px) {
+      position: absolute;
+      top: 0;
+      font-size: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
   }
 `;
 const Image = styled.img`
   width: 100%;
   margin-right: 20px;
+
+  @media (max-width: 380px) {
+    width: 70%;
+    margin: 0 auto 0 auto;
+  }
 `;
