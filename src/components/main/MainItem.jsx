@@ -88,7 +88,7 @@ const Button = styled.div`
   @media (max-width: 400px) {
     width: 70px;
     height: 24px;
-    font-size: 10%;
+    font-size: 10px;
     margin-left: 30px;
   }
 `;
