@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import windEyes from "../../assets/img/wind/windEyes.png";
+import windEyes from "../../assets/img/wind/WindEyes.png";
 
 export default function Dice() {
   return (
@@ -35,7 +35,7 @@ const Container = styled.div``;
 const Wrapper = styled.div`
   position: relative;
   width: 320px;
-  margin: 0px auto 0 auto;
+  margin: 40px auto 0 auto;
   perspective: 1500px;
 `;
 

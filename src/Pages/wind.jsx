@@ -1,5 +1,5 @@
-import Dice from "./components/Dice";
-import Title from "./components/Title";
+import Dice from "../components/wind/Dice";
+import Title from "../components/wind/Title";
 
 export default function App() {
   return (
