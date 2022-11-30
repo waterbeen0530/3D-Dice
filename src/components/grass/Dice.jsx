@@ -1,9 +1,25 @@
+import { useEffect } from "react";
+import JSConfetti from "js-confetti";
 import styled from "styled-components";
 import GrassEyes from "../../assets/img/grass/GrassEyes.png";
 
 export default function Dice() {
+  const Hooray = () => {
+    const confetti = new JSConfetti();
+    confetti.addConfetti({
+      emojis: ["🫧", "💚", "🪄", "✨"],
+      emojiSize: 100,
+      confettiNumber: 50,
+      confettiRadius: 6,
+    });
+  };
+
+  useEffect(() => {
+    Hooray();
+  }, []);
+
   return (
-    <Container>
+    <Container onClick={Hooray}>
       <Wrapper>
         <Frame>
           <Front>

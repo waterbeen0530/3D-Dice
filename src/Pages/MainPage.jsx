@@ -27,6 +27,7 @@ const Container = styled.div`
 `;
 
 const Text = styled.h1`
+  width: 26%;
   font-size: 40px;
 
   @media (max-width: 400px) {
