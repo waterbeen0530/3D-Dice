@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import LightEyes from "../../assets/img/light/LightEyes.png";
+import lightEyes from "../../assets/img/light/lightEyes.png";
 
 export default function Dice() {
   return (
@@ -7,22 +7,22 @@ export default function Dice() {
       <Wrapper>
         <Frame>
           <Front>
-            <Image src={LightEyes}></Image>
+            <Image src={lightEyes}></Image>
           </Front>
           <Left>
-            <Image src={LightEyes}></Image>
+            <Image src={lightEyes}></Image>
           </Left>
           <Top>
-            <Image src={LightEyes}></Image>
+            <Image src={lightEyes}></Image>
           </Top>
           <Bottom>
-            <Image src={LightEyes}></Image>
+            <Image src={lightEyes}></Image>
           </Bottom>
           <Right>
-            <Image src={LightEyes}></Image>
+            <Image src={lightEyes}></Image>
           </Right>
           <Back>
-            <Image src={LightEyes}></Image>
+            <Image src={lightEyes}></Image>
           </Back>
         </Frame>
       </Wrapper>

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import windEyes from "../../assets/img/wind/WindEyes.png";
+import windEyes from "../../assets/img/wind/windEyes.png";
 
 export default function Dice() {
   return (

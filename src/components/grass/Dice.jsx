@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import GrassEyes from "../../assets/img/grass/GrassEyes.png";
+import grassEyes from "../../assets/img/grass/grassEyes.png";
 
 export default function Dice() {
   return (
@@ -7,22 +7,22 @@ export default function Dice() {
       <Wrapper>
         <Frame>
           <Front>
-            <Image src={GrassEyes}></Image>
+            <Image src={grassEyes}></Image>
           </Front>
           <Left>
-            <Image src={GrassEyes}></Image>
+            <Image src={grassEyes}></Image>
           </Left>
           <Top>
-            <Image src={GrassEyes}></Image>
+            <Image src={grassEyes}></Image>
           </Top>
           <Bottom>
-            <Image src={GrassEyes}></Image>
+            <Image src={grassEyes}></Image>
           </Bottom>
           <Right>
-            <Image src={GrassEyes}></Image>
+            <Image src={grassEyes}></Image>
           </Right>
           <Back>
-            <Image src={GrassEyes}></Image>
+            <Image src={grassEyes}></Image>
           </Back>
         </Frame>
       </Wrapper>

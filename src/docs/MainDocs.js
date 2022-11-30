@@ -1,27 +1,27 @@
-import WindEyes from "../assets/img/wind/WindEyes.png";
-import RockEyes from "../assets/img/rock/RockEyes.png";
-import LightEyes from "../assets/img/light/LightEyes.png";
-import GrassEyes from "../assets/img/grass/GrassEyes.png";
+import windEyes from "../assets/img/wind/windEyes.png";
+import rockEyes from "../assets/img/rock/rockEyes.png";
+import lightEyes from "../assets/img/light/lightEyes.png";
+import grassEyes from "../assets/img/grass/grassEyes.png";
 
 export const items = [
   {
     title: "바람 신의 눈동자",
-    img: WindEyes,
+    img: windEyes,
     link: "/wind",
   },
   {
     title: "바위 신의 눈동자",
-    img: RockEyes,
+    img: rockEyes,
     link: "/rock",
   },
   {
     title: "번개 신의 눈동자",
-    img: LightEyes,
+    img: lightEyes,
     link: "/light",
   },
   {
     title: "풀의 신의 눈동자",
-    img: GrassEyes,
+    img: grassEyes,
     link: "/grass",
   },
 ];
