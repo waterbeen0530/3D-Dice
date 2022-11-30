@@ -30,7 +30,7 @@ const Text = styled.div`
   justify-content: center;
   flex-direction: column;
 
-  @media (max-width: 380px) {
+  @media (max-width: 400px) {
     margin: 0;
   }
 
@@ -38,7 +38,7 @@ const Text = styled.div`
     margin: 0;
     line-height: 70px;
     font-size: 50px;
-    @media (max-width: 380px) {
+    @media (max-width: 400px) {
       width: 70%;
       font-size: 36px;
       line-height: 50px;

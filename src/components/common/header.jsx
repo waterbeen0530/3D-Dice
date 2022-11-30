@@ -34,7 +34,7 @@ const Container = styled.div`
   justify-content: center;
   color: #fff;
 
-  @media (max-width: 380px) {
+  @media (max-width: 400px) {
     height: 60px;
     position: relative;
   }
@@ -46,7 +46,7 @@ const Wrapper = styled.div`
   justify-content: flex-start;
   gap: 20px;
 
-  @media (max-width: 380px) {
+  @media (max-width: 400px) {
     justify-content: center;
   }
 
@@ -55,7 +55,7 @@ const Wrapper = styled.div`
     font-weight: 600;
     color: #fff;
     text-decoration: none;
-    @media (max-width: 380px) {
+    @media (max-width: 400px) {
       position: absolute;
       top: 0;
       font-size: 0;
@@ -69,8 +69,8 @@ const Image = styled.img`
   width: 100%;
   margin-right: 20px;
 
-  @media (max-width: 380px) {
+  @media (max-width: 400px) {
     width: 70%;
-    margin: 0 auto 0 auto;
+    margin: 20px auto 0 auto;
   }
 `;
