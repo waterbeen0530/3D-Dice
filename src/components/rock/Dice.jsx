@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import rockEyes from "../../assets/img/rock/rockEyes.png";
+import RockEyes from "../../assets/img/rock/RockEyes.png";
 
 export default function Dice() {
   return (
@@ -7,22 +7,22 @@ export default function Dice() {
       <Wrapper>
         <Frame>
           <Front>
-            <Image src={rockEyes}></Image>
+            <Image src={RockEyes}></Image>
           </Front>
           <Left>
-            <Image src={rockEyes}></Image>
+            <Image src={RockEyes}></Image>
           </Left>
           <Top>
-            <Image src={rockEyes}></Image>
+            <Image src={RockEyes}></Image>
           </Top>
           <Bottom>
-            <Image src={rockEyes}></Image>
+            <Image src={RockEyes}></Image>
           </Bottom>
           <Right>
-            <Image src={rockEyes}></Image>
+            <Image src={RockEyes}></Image>
           </Right>
           <Back>
-            <Image src={rockEyes}></Image>
+            <Image src={RockEyes}></Image>
           </Back>
         </Frame>
       </Wrapper>
