@@ -30,12 +30,14 @@ export default function Dice() {
   );
 }
 
-const Container = styled.div``;
+const Container = styled.div`
+  user-select: none;
+`;
 
 const Wrapper = styled.div`
   position: relative;
   width: 320px;
-  margin: 40px auto 0 auto;
+  margin: 0 auto 0 auto;
   perspective: 1500px;
 `;
 
