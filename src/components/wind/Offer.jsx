@@ -1,5 +1,5 @@
-import styled from "styled-components";
-// import { windEyes } from "../../assets";
+/*import styled from "styled-components";
+import { windEyes } from "../../assets";
 
 export default function Offer() {
   const xPositon = () => {
@@ -36,3 +36,4 @@ const Wrapper = styled.div`
   width: 100%;
   height: 100%;
 `;
+*/
