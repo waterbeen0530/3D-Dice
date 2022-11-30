@@ -29,7 +29,7 @@ const Container = styled.div`
 const Text = styled.h1`
   font-size: 40px;
 
-  @media (max-width: 380px) {
+  @media (max-width: 400px) {
     width: 90%;
     font-size: 36px;
     line-height: 60px;
@@ -43,7 +43,7 @@ const Wrapper = styled.div`
   align-items: center;
   justify-content: center;
 
-  @media (max-width: 380px) {
+  @media (max-width: 400px) {
     margin-top: 40px;
     display: flex;
     align-items: center;

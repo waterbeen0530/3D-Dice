@@ -47,7 +47,7 @@ const Container = styled.div`
       transform: translateY(-50px);
     }
   }
-  @media (max-width: 380px) {
+  @media (max-width: 400px) {
     width: 280px;
     height: 50px;
     display: flex;
@@ -59,7 +59,7 @@ const Container = styled.div`
 const Image = styled.img`
   width: 50%;
 
-  @media (max-width: 380px) {
+  @media (max-width: 400px) {
     width: 14%;
   }
 `;
@@ -68,7 +68,7 @@ const Text = styled.h3`
   font-weight: 800;
   color: #000;
 
-  @media (max-width: 380px) {
+  @media (max-width: 400px) {
     font-size: 70%;
   }
 `;
@@ -85,7 +85,7 @@ const Button = styled.div`
   color: #fff;
   background-color: #000;
 
-  @media (max-width: 380px) {
+  @media (max-width: 400px) {
     width: 70px;
     height: 24px;
     font-size: 10%;
