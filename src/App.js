@@ -1,13 +1,26 @@
 import "./App.css";
 import styled from "styled-components";
-import Dice from "./components/wind/Dice";
-import Title from "./components/wind/Title";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Header from "./components/common/header";
+import Main from "./Pages/Main";
+import Wind from "../src/Pages/Wind";
+import Rock from "../src/Pages/Rock";
+import Light from "../src/Pages/Light";
+import Grass from "./Pages/Grass";
 
 export default function App() {
   return (
     <Container>
-      <Title />
-      <Dice />
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Main />}></Route>
+          <Route path="/wind" element={<Wind />}></Route>
+          <Route path="/rock" element={<Rock />}></Route>
+          <Route path="/light" element={<Light />}></Route>
+          <Route path="/grass" element={<Grass />}></Route>
+        </Routes>
+      </BrowserRouter>
     </Container>
   );
 }
@@ -15,5 +28,5 @@ export default function App() {
 const Container = styled.div`
   width: 100vw;
   height: 100vh;
-  background: #2a2734;
+  background-color: #2a2734;
 `;
