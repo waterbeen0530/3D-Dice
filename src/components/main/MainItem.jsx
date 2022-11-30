@@ -3,15 +3,23 @@ import { Link } from "react-router-dom";
 
 export default function MainItem({ item }) {
   return (
-    <Container>
-      <Image src={item.img}></Image>
-      <Text>{item.title}</Text>
+    <Cover>
       <Link to={item.link}>
-        <Button>공양하기</Button>
+        <Container>
+          <Image src={item.img}></Image>
+          <Text>{item.title}</Text>
+          <Button>공양하기</Button>
+        </Container>
       </Link>
-    </Container>
+    </Cover>
   );
 }
+
+const Cover = styled.div`
+  & > a {
+    text-decoration: none;
+  }
+`;
 
 const Container = styled.div`
   width: 230px;
@@ -23,8 +31,21 @@ const Container = styled.div`
   flex-direction: column;
   border-radius: 10px;
   background-color: #fff;
-  & > a {
-    text-decoration: none;
+  &:hover {
+    animation: shaking 0.3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    cursor: pointer;
+  }
+
+  @keyframes shaking {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-50px);
+    }
   }
 `;
 const Image = styled.img`
